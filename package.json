@@ -1,0 +1,34 @@
+{
+  "name": "node-cqrs-starter",
+  "version": "0.1.0",
+  "description": "A minimal, production-minded CQRS boilerplate for Node.js.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "cqrs",
+    "command-query-responsibility-segregation",
+    "nodejs",
+    "typescript",
+    "architecture",
+    "ddd",
+    "event-driven",
+    "backend"
+  ],
+  "author": "Ahmed Samy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AhmedSamyAhmedAly/node-cqrs-starter.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
